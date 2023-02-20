@@ -6,8 +6,8 @@
 #include <ESP8266WiFi.h>    //Link in description
 #include <ThingSpeak.h>    
 
-//D6 = Rx & D5 = Tx
-SoftwareSerial nodemcu(D6, D5);
+//D3 = Rx & D2 = Tx
+SoftwareSerial nodemcu(D2, D3);
 
 //Timer - milliseconds
 unsigned long previousMillis = 0;
