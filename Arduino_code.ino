@@ -9,8 +9,8 @@
 #include <SoftwareSerial.h>
 #include <ArduinoJson.h>
 
-//Initialise Arduino to NodeMCU (5=Rx & 6=Tx)
-SoftwareSerial nodemcu(5, 6);
+//Initialise Arduino to NodeMCU (2=Rx & 3=Tx)
+SoftwareSerial nodemcu(2, 3);
 
 //Initialisation of DHT11 Sensor
 #define DHTPIN 4
